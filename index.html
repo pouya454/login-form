@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="style.css">
+    <title>login-form</title>
+</head>
+<body>
+<section class="cntainer">
+    <div class="box">
+        <h1 class="text">LOGIN</h1>
+        <input type="text" class="input" id="myInput" placeholder="username">
+        <input type="text" class="input" placeholder="Password">  
+
+        <a href="#" class="btn">login</a>
+        
+    </div>
+</section>
+        <script>
+        
+            const inputs = document.querySelectorAll('input');
+
+            inputs.forEach(input => {
+              input.addEventListener('click', () => {
+                  input.style.width = '230px'; // افزایش عرض به 250px
+                 });
+
+              input.addEventListener('blur', () => {
+                  input.style.width = '200px'; // بازگشت به عرض اولیه
+                   });
+            });
+
+
+
+        </script>
+       
+
+    </body>        
+
+
+
+
+</body>
+</html>

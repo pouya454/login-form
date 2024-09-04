@@ -1,0 +1,58 @@
+body{
+    background-color: cornflowerblue;
+}
+
+.cntainer{
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    margin:200px 0 0 600px ;
+}
+
+
+.box{
+    padding-top: 50px;
+}
+
+
+
+.text{
+    color: white; 
+     text-align: center;
+}
+
+
+
+.input{
+    background-color: black;
+    border: solid 1px;
+    border-color:aqua;
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 30px;
+    border-radius: 40px;
+    width: 200px; 
+    transition: width 0.3s ease; 
+    color: rgb(190, 201, 201);
+    text-align: center;
+}
+
+.btn{
+    background-color: black;
+    border: solid 1px;
+    border-color:rgb(14, 180, 69);
+    margin-left: 115px;
+    border-radius: 40px;
+    color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+    transition: 0.3s ease;
+
+}
+
+
+
+.btn:hover{
+    background-color: rgb(14, 180, 69);
+}
